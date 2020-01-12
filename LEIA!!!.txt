@@ -1,0 +1,9 @@
+para conexão no banco de dados mudar as informações de
+host
+dbname
+usuario
+senha
+
+no arquivo db.php
+
+aproveite :)

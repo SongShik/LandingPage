@@ -1,0 +1,163 @@
+
+a:link {
+    color: white;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+    color: white;
+ }
+ 
+ /* mouse over */
+ a:hover {
+    color: white;
+ }
+ 
+ /* link selecionado */
+ a:active {
+    color: white;
+ }
+p{
+    font-size: 17px !important;
+}
+
+.pb-50{
+    padding-bottom: 100px;
+}
+
+/* img principal */
+.fundo-principal{
+    background-image: url(../img/principal.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+ul#menu li {
+  display:inline;
+  margin: 30px;
+}
+
+.titulo{
+    letter-spacing: 3px;
+}
+
+.btn-principal{
+    border: 4px solid #fff !important;
+    border-radius:0px !important;
+    padding: 10px 0px 10px 0px !important;
+    width: 200px;
+    color: #fff;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+}
+
+.btn-principal:hover{
+    border: 4px solid #f9c4d9 !important;
+    color: #fa0f58;
+    background-color: #f9c4d9;
+}
+
+/* carousel */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    margin-top: 30px;
+    width: 15px;
+    height: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #E91E63;
+    width: 15px;
+    height: 15px;
+}
+
+/* fundo-formulario */
+.fundo-formulario{
+    background-color: #eeeeee;
+}
+.fundo-formulario-img{
+    background-image: url(../img/formulario.png);
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contato{
+    color:#f39304 !important;
+}
+
+/* formulario */
+.formulario{
+    height: 900px;
+}
+.input {
+    font-size: 20px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #999999;
+    outline-style: none !important;
+    color: #999999;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.input:focus {
+    font-size: 20px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-bottom: 2px solid #f39304;
+    outline-style: none !important;
+    color: #000;
+
+}
+
+.btn-form{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #fa004d;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+textarea {
+    height:200px;
+    resize: none !important;
+}
+
+/* icones */
+.fa {
+    width: 50px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 20px;
+    transition: all 0.5s;
+  }
+  
+.fa:hover{
+    color: #fff;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+  .facebook{
+    background-color: #395a96;
+    border: 15px solid #395a96;
+  }
+  
+  .instagram{
+    background-color: #808080;
+    border: 15px solid #808080;
+  }
+  
+  .youtube{
+    background-color: #d12827;
+    border: 15px solid #d12827;     
+  }
